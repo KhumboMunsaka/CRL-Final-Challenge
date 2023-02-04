@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <button class="nav-toggle" aria-label="open navigation">
+          <span class="hamburger"></span>
+        </button>
+        <a class="logo" href="#">
+          <img src="/logo.svg" alt="conquering responsive layouts" />
+        </a>
+        <div class="nav-items">
+          <ul class="nav-primary">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+          <ul class="nav-secondary">
+            <li><a href="#">SIGN IN</a></li>
+            <li><a href="#" class="sign-up">SIGN UP</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="container row">
+        <div class="hero__text">
+          <h1>Responsive layouts <span> don’t have to be a struggle</span></h1>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+          <button>
+            <a href="#" class="btn">I WANT TO LEARN</a>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container row">
+        <div class="guides">
+          <h2>Mobile-first</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque animi
+            id vero itaque natus non beatae maiores possimus ipsam officiis cum
+            doloremque doloribus magnam dolorum, sequi distinctio odit tempore
+            facere?
+          </p>
+        </div>
+        <div class="guides">
+          <h2>Efficient</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque animi
+            id vero itaque natus non beatae maiores possimus ipsam officiis cum
+            doloremque doloribus magnam dolorum, sequi distinctio odit tempore
+            facere?
+          </p>
+        </div>
+        <div class="guides">
+          <h2>Done Right</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque animi
+            id vero itaque natus non beatae maiores possimus ipsam officiis cum
+            doloremque doloribus magnam dolorum, sequi distinctio odit tempore
+            facere?
+          </p>
+        </div>
+      </div>
+    </main>
+    <section>
+      <div class="container row">
+        <div class="explanation">
+          <h2 class="main-heading">It Doesn't Have To Be So Hard</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            autem iusto aut, quibusdam modi maiores reprehenderit, omnis, nulla
+            porro similique quod culpa ab id! Odit cupiditate delectus officiis
+            mollitia. Obcaecati.
+          </p>
+          <img class="image" src="/the-image.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            nihil deleniti tempore possimus veritatis omnis repudiandae dolore
+            tenetur laudantium impedit! Voluptatum fugiat iure ipsum dolorum rem
+            quod. Quibusdam, obcaecati asperiores.
+          </p>
+        </div>
+        <div class="mini-sidebars">
+          <div class="side-box">
+            <h2>BREAK IT DOWN</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+              animi id vero itaque natus non beatae maiores possimus ipsam
+              officiis cum doloremque doloribus magnam dolorum, sequi distinctio
+              odit tempore facere?
+            </p>
+          </div>
+          <div class="side-box">
+            <h2>WORK YOUR WAY UP</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+              animi id vero itaque natus non beatae maiores possimus ipsam
+              officiis cum doloremque doloribus magnam dolorum, sequi distinctio
+              odit tempore facere?
+            </p>
+          </div>
+          <div class="side-box">
+            <h2>BREAK IT DOWN</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+              animi id vero itaque natus non beatae maiores possimus ipsam
+              officiis cum doloremque doloribus magnam dolorum, sequi distinctio
+              odit tempore facere?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <h1 class="footer-heading">Just scratching the surface</h1>
+        <div class="socials">
+          <div class="about">
+            <h3>About our company</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate, ipsum. Esse officia dolorem sit voluptatibus et, ipsum
+              reprehenderit totam delectus consequuntur debitis omnis. Eligendi
+              ducimus repellat ut dolore illum dolores?
+            </p>
+          </div>
+          <div>
+            <h3><a href="#">Getting Around</a></h3>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div>
+            <h3><a href="#">Other things</a></h3>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div>
+            <h3><a href="#">More</a></h3>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    const navtoggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.nav-items');
+    navtoggle.addEventListener('click', function () {
+      nav.classList.toggle('nav-visible');
+    });
+  </script>
+</html>
