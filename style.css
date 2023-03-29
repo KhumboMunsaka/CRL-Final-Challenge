@@ -20,6 +20,9 @@ section {
 
 /* to make the nav disappear */
 .nav-visible {
+  display: block;
+}
+.invisible-nav {
   display: none;
 }
 
@@ -93,7 +96,7 @@ section {
 .nav-primary,
 .nav-secondary {
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 .nav-primary {

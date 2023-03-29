@@ -16,7 +16,7 @@
         <a class="logo" href="#">
           <img src="/logo.svg" alt="conquering responsive layouts" />
         </a>
-        <div class="nav-items">
+        <div class="nav-items invisible-nav">
           <ul class="nav-primary">
             <li><a href="#">HOME</a></li>
             <li><a href="#">ABOUT</a></li>
@@ -155,11 +155,12 @@
       </div>
     </footer>
   </body>
-  <script>
+  <script defer>
     const navtoggle = document.querySelector('.nav-toggle');
     const nav = document.querySelector('.nav-items');
     navtoggle.addEventListener('click', function () {
       nav.classList.toggle('nav-visible');
+      nav.classList.toggle('invisible-nav');
     });
   </script>
 </html>
